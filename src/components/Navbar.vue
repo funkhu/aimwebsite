@@ -1,9 +1,9 @@
 <template>
-    <div>
+    <div class="navbar-fixed">
         <nav>
-            <div class="nav-wrapper blue-grey lighten-2 transparent">
+            <div class="nav-wrapper">
                 <div class="container">
-                    <router-link to="/" class="brand-logo"><img src="..\assets\Logo.png" alt=""></router-link>
+                    <router-link to="/" class="brand-logo"><img id="aim-logo" src="..\assets\logo\picture1.png" alt=""></router-link>
                     <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                     <ul class="right hide-on-med-and-down">
                         <li><router-link active-class="active" to="/" exact>Home</router-link></li>
@@ -26,17 +26,32 @@
 <script>
 const sideNav = document.querySelector(".sidenav");
 M.Sidenav.init(sideNav, {});
+
+// document.addEventListener("DOMContentLoaded", function() {
+//   var elems = document.querySelectorAll(".slider");
+//   var instances = M.Slider.init(elems, {
+//     indicators: false,
+//     height: 200,
+//     transition: 500,
+//     interval: 6000
+//   });
+// });
 </script>
 
 <style>
 nav {
+  /* position: fixed; */
   line-height: 61px;
+  background: rgba(117, 117, 117, 0.7);
 }
 
 nav ul a {
   font-weight: bold;
 }
-.active {
+nav .active {
   border-bottom: 2px solid #dedede;
+}
+#aim-logo {
+  height: -webkit-fill-available;
 }
 </style>
