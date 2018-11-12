@@ -1,7 +1,9 @@
 <template>
   <div id="app">
-    <Navbar />
-    <router-view/>
+    <div id="aim-container" class="container">
+      <Navbar />
+      <router-view/>
+    </div>
   </div>
 </template>
 
@@ -15,3 +17,14 @@ export default {
   }
 };
 </script>
+
+<style>
+#app {
+  background-color: #dedede;
+  overflow: hidden;
+}
+
+#aim-container {
+  height: 100vh;
+}
+</style>
