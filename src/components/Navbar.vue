@@ -2,21 +2,24 @@
     <div class="navbar">
         <nav class="blue darken-3">
             <div class="nav-wrapper">
-                <div class="container">
-                    <router-link to="/" class="brand-logo"><img id="aim-logo" src="..\assets\logo\Logo2.png" alt="">
-                    <div class="logo-text">
-                        <h6>Airconditioning</h6>
-                        <h6>Industrial</h6>
-                        <h6>Maintenance</h6>
+                <div class="row">
+                    <div class="col s10 offset-s1">
+                        <router-link to="/" class="brand-logo"><img id="aim-logo" src="..\assets\logo\Logo2.png" alt="">
+                        <div class="logo-text">
+                            <h6>Airconditioning</h6>
+                            <h6>Industrial</h6>
+                            <h6>Maintenance</h6>
+                        </div>
+                        </router-link>
+                        <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                        <ul class="right hide-on-med-and-down">
+                            <li><router-link active-class="active" to="/" exact>Home</router-link></li>
+                            <li><router-link active-class="active" to="about">About Us</router-link></li>
+                            <li><router-link active-class="active" to="team">Team</router-link></li>
+                            <li><router-link active-class="active" to="contact">Contact Us</router-link></li>
+                        </ul>
                     </div>
-                    </router-link>
-                    <a href="#" data-target="mobile-nav" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-                    <ul class="right hide-on-med-and-down">
-                        <li><router-link active-class="active" to="/" exact>Home</router-link></li>
-                        <li><router-link active-class="active" to="about">About Us</router-link></li>
-                        <li><router-link active-class="active" to="team">Team</router-link></li>
-                        <li><router-link active-class="active" to="contact">Contact Us</router-link></li>
-                    </ul>
+                    
                 </div>
             </div>
         </nav>

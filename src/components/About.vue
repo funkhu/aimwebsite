@@ -7,7 +7,7 @@
       <div class="left-align about-heading">About Us</div>
       <div style="flex: 1;">
         <div class="row">
-          <div class="col s8">
+          <div class="col s8 offset-s1">
             <div class="aim-about-header grey-text text-darken-3">
               <p><span class="aim">A.I.M</span> Air Conditioning is a family owned business that was originally established in 1989.</p>
               <p><span class="aim">A.I.M</span> specialises in Industrial and Commercial installations.</p>
@@ -24,7 +24,7 @@
        
       </div>
            <div class="footer">
-        <p>A.I.M Airconditioning Industrial Maintenance | Created by Ben</p>
+        <p>A.I.M Airconditioning Industrial Maintenance | Created by Ben Sander</p>
       </div>
         
 

@@ -10,10 +10,10 @@
       </div>
       <div style="flex: 1;">
         <div class="row">
-          <div class="col s6">
+          <div class="col s5 offset-s1">
             <div class="aim-header grey-text text-darken-3"><span style="color: #1565C0">A.I.M</span> specialises in Industrial and Commercial Installations.</div>
           </div>
-          <div class="col s6">
+          <div class="col s5">
             <div class="aim-sub grey-text text-darken-3">
               A.I.M carries out repairs and maintenance to a variety of equipment in the greater Durban and surrounding areas and are experienced to maintain and repair all brands of air-conditioning units, chillers and related equipment.
             </div>
@@ -22,7 +22,7 @@
        
       </div>
      <div class="footer">
-        <p>A.I.M Airconditioning Industrial Maintenance | Created by Ben</p>
+        <p>A.I.M Airconditioning Industrial Maintenance | Created by Ben Sander</p>
       </div>
     </div>
 </template>
@@ -52,11 +52,11 @@ export default {
 .aim-header {
   font-weight: 500;
   font-size: 35px;
-  padding: 40px;
+  padding-top: 28px;
 }
 
 .aim-sub {
-  padding: 55px;
+  padding-top: 45px;
 }
 
 #learn-more-btn {
@@ -67,6 +67,7 @@ export default {
   border-radius: 29px;
   color: black;
 }
+
 .footer {
   background-color: #424242;
   min-height: 30px;
