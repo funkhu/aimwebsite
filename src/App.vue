@@ -21,7 +21,7 @@ export default {
 <style>
 #app {
   background-color: #dedede;
-  overflow: hidden;
+  overflow: auto;
 }
 
 #aim-container {

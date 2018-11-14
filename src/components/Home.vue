@@ -8,10 +8,21 @@
           <a id="request-quote" class="waves-effect blue lighten-5 waves-light btn-large">REQUEST A QUOTE</a>
         </div>
       </div>
-      <div class="row">
-        <div class="col s12 center-align">
-          <div class="aim-header blue-text text-darken-3">Airconditioning Industrial Maintenance</div>
+      <div style="flex: 1;">
+        <div class="row">
+          <div class="col s6">
+            <div class="aim-header grey-text text-darken-3"><span style="color: #1565C0">A.I.M</span> specialises in Industrial and Commercial Installations.</div>
+          </div>
+          <div class="col s6">
+            <div class="aim-sub grey-text text-darken-3">
+              A.I.M carries out repairs and maintenance to a variety of equipment in the greater Durban and surrounding areas and are experienced to maintain and repair all brands of air-conditioning units, chillers and related equipment.
+            </div>
+          </div>
         </div>
+       
+      </div>
+     <div class="footer">
+        <p>A.I.M Airconditioning Industrial Maintenance | Created by Ben</p>
       </div>
     </div>
 </template>
@@ -28,7 +39,9 @@ export default {
 <style>
 #home {
   background-color: white;
-  min-height: 100%;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
 }
 
 #btn-row {
@@ -37,8 +50,13 @@ export default {
 }
 
 .aim-header {
-  font-weight: 600;
-  font-size: 49px;
+  font-weight: 500;
+  font-size: 35px;
+  padding: 40px;
+}
+
+.aim-sub {
+  padding: 55px;
 }
 
 #learn-more-btn {
@@ -48,6 +66,12 @@ export default {
 #request-quote {
   border-radius: 29px;
   color: black;
+}
+.footer {
+  background-color: #424242;
+  min-height: 30px;
+  padding-left: 10px;
+  color: #dedede;
 }
 </style>
 
