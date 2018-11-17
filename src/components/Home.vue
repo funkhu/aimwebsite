@@ -5,7 +5,7 @@
 
         <div id="btn-row">
           <router-link id="learn-more-btn" class="waves-effect light-blue accent-2 btn-large" to="about">LEARN MORE</router-link>
-          <a id="request-quote" class="waves-effect blue lighten-5 waves-light btn-large">REQUEST A QUOTE</a>
+          <button class="request-quote waves-effect blue lighten-5 waves-light btn-large">REQUEST A QUOTE</button>
         </div>
       </div>
       <div style="flex: 1;">
@@ -63,7 +63,7 @@ export default {
   border-radius: 29px;
 }
 
-#request-quote {
+.request-quote {
   border-radius: 29px;
   color: black;
 }
