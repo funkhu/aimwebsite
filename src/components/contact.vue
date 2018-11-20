@@ -8,9 +8,9 @@
         <div class="details">
           <ul>
             <li>Need to get in touch with us? Find our contact details below:</li>
-            <li><i class="tiny material-icons">home</i><b>Address: </b></li>
-            <li><i class="tiny material-icons">local_phone</i><b>Phone Number: </b></li>
-            <li><i class="tiny material-icons">email</i><b>Email Address: </b></li>
+            <li><i class="tiny material-icons">home</i><b>Address: </b>50 Alpha Cres, Umbilo Industrial, Durban, 4001</li>
+            <li><i class="tiny material-icons">local_phone</i><b>Phone Number: </b>031 465 2600</li>
+            <li><i class="tiny material-icons">email</i><b>Email Address: </b>info@aimaircon.co.za</li>
           </ul>
             <div class="quote-btn">
               <a class="waves-effect light-blue accent-2 btn-large modal-trigger" href="#modal">REQUEST A QUOTE</a>
@@ -20,28 +20,24 @@
                 <h4>Request a Quote</h4>
                 <div class="column">
                   <div class="input-field">
-                    <input id="first_name" type="text" class="validate">
+                    <input id="first_name" v-model="firstName" required type="text" class="validate">
                     <label for="first_name">First Name</label>
                   </div>
                   <div class="input-field">
-                    <input id="last_name" type="text" class="validate">
+                    <input id="last_name" v-model="lastName" required type="text" class="validate">
                     <label for="last_name">Last Name</label>
                   </div>
                   <div class="input-field">
-                    <input id="email" type="email" class="validate">
-                    <label for="email">Email</label>
-                  </div>
-                  <div class="input-field">
-                    <textarea id="textarea1" class="materialize-textarea"></textarea>
+                    <textarea id="textarea1" v-model="query" required class="materialize-textarea"></textarea>
                     <label for="textarea1">Query</label>
                   </div>
                 </div>
               </div>
               <div class="modal-footer">
-                <a href="#!" class="modal-close waves-effect waves-green btn-flat">Send</a>
+                <a :href="'mailto:info@aimaircon.co.za?subject=Query from website&body='+ firstName + ' '+ lastName +'%0A%0A'+ query" class="modal-close waves-effect waves-green btn-flat" :disabled="firstName === '' || lastName === '' || query === ''">Send</a>
               </div>
             </div>
-      </div>
+        </div>
       </div>
            <div class="footer">
         <p>A.I.M Airconditioning Industrial Maintenance | Created by Ben Sander</p>
@@ -53,10 +49,14 @@
 export default {
   name: "contact",
   data() {
-    return {};
+    return {
+      firstName: null,
+      lastName: null,
+      query: null
+    };
   },
   mounted: function() {
-    var elems = document.querySelectorAll('.modal');
+    var elems = document.querySelectorAll(".modal");
     M.Modal.init(elems, {
       inDuration: 300
     });

@@ -5,7 +5,7 @@
 
         <div id="btn-row">
           <router-link id="learn-more-btn" class="waves-effect light-blue accent-2 btn-large" to="about">LEARN MORE</router-link>
-          <button class="request-quote waves-effect blue lighten-5 waves-light btn-large">REQUEST A QUOTE</button>
+          <router-link to="contact" class="request-quote waves-effect blue lighten-5 waves-light btn-large">REQUEST A QUOTE</router-link>
         </div>
       </div>
       <div style="flex: 1;">
