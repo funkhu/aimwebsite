@@ -1,7 +1,7 @@
 <template>
   <div id="home" class="z-depth-1">
     <div class="col s12 center-align">
-      <section id="banner"></section>
+      <section id="home-banner"></section>
 
       <div id="btn-row">
         <router-link
@@ -52,7 +52,7 @@ export default {
   flex-direction: column;
 }
 
-#banner {
+#home-banner {
   background-image: url("../assets/scroll/HVACOriginal.png");
   background-position: center center;
   background-size: cover;
