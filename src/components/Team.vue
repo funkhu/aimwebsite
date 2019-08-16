@@ -1,89 +1,69 @@
 <template>
-    <div id="team" class="z-depth-1">
-        <div class="col s12 center-align">
-        <img class="responsive-img" src="">
-        
-      </div>
-      <div class="left-align team-heading">Team</div>
-      <div style="flex: 1; padding-left: 97px;">
-        <div class="row">
-          <div class="col s12 team-container">
-            <ul class="flex-container wrap">
-              <li class="portrait">
-                <img class="portrait-pic z-depth-1" src="../assets/portraits/keith.jpg">
-                <div class="portrait-text">
-                  <div class="name grey-text text-darken-2">Keith Sander</div>
-                </div>
-              </li>
-              <li class="portrait">
-                <img class="portrait-pic z-depth-1" src="../assets/portraits/1.jpg">
-                <div class="portrait-text">
-                  <div class="name grey-text text-darken-2">Qinisela Mkhize</div>
-                </div>
-              </li>
-              <li class="portrait">
-                <img class="portrait-pic z-depth-1" src="../assets/portraits/2.jpg">
-                <div class="portrait-text">
-                  <div class="name grey-text text-darken-2">Thamsanqa Shezi</div>
-                </div>
-              </li>
-              <li class="portrait">
-                <img class="portrait-pic z-depth-1" src="../assets/portraits/3.jpg">
-                <div class="portrait-text">
-                  <div class="name grey-text text-darken-2">Siyazama Ndlovu</div>
-                </div>
-              </li>
-              <li class="portrait">
-                <img class="portrait-pic z-depth-1" src="../assets/portraits/4.jpg">
-                <div class="portrait-text">
-                  <div class="name grey-text text-darken-2">Velani Tabete</div>
-                </div>
-              </li>
-              <li class="portrait">
-                <img class="portrait-pic z-depth-1" src="../assets/portraits/5.jpg">
-                <div class="portrait-text">
-                  <div class="name grey-text text-darken-2">Janine Whitely</div>
-                </div>
-              </li>
-              <li class="portrait">
-                <img class="portrait-pic z-depth-1" src="../assets/portraits/6.jpg">
-                <div class="portrait-text">
-                  <div class="name grey-text text-darken-2">Gerald Shezi</div>
-                </div>
-              </li>
-              <li class="portrait">
-                <img class="portrait-pic z-depth-1" src="../assets/portraits/7.jpg">
-                <div class="portrait-text">
-                  <div class="name grey-text text-darken-2">Bhekani Nguse</div>
-                </div>
-              </li>
-              <li class="portrait">
-                <img class="portrait-pic z-depth-1" src="../assets/portraits/8.jpg">
-                <div class="portrait-text">
-                  <div class="name grey-text text-darken-2">Khulekani Khanyile</div>
-                </div>
-              </li>
-              <li class="portrait">
-                <img class="portrait-pic z-depth-1" src="../assets/portraits/9.jpg">
-                <div class="portrait-text">
-                  <div class="name grey-text text-darken-2">Michael Rodway</div>
-                </div>
-              </li>
-              <li class="portrait">
-                <img class="portrait-pic z-depth-1" src="../assets/portraits/10.jpg">
-                <div class="portrait-text">
-                  <div class="name grey-text text-darken-2">Denise Schubach</div>
-                </div>
-              </li>
-            </ul>
-          </div>
+  <div id="team" class="z-depth-1">
+    <div class="col s12 center-align">
+      <img class="responsive-img" src />
+    </div>
+    <div class="left-align team-heading">Team</div>
+    <div style="flex: 1; padding-left: 97px;">
+      <div class="row">
+        <div class="col s12 team-container">
+          <ul class="flex-container wrap">
+            <li class="portrait">
+              <img class="portrait-pic z-depth-1" src="../assets/portraits/keith.jpg" />
+              <div class="portrait-text">
+                <div class="name grey-text text-darken-2">Keith Sander</div>
+              </div>
+            </li>
+            <li class="portrait">
+              <img class="portrait-pic z-depth-1" src="../assets/portraits/1.jpg" />
+              <div class="portrait-text">
+                <div class="name grey-text text-darken-2">Qinisela Mkhize</div>
+              </div>
+            </li>
+            <li class="portrait">
+              <img class="portrait-pic z-depth-1" src="../assets/portraits/2.jpg" />
+              <div class="portrait-text">
+                <div class="name grey-text text-darken-2">Thamsanqa Shezi</div>
+              </div>
+            </li>
+            <li class="portrait">
+              <img class="portrait-pic z-depth-1" src="../assets/portraits/3.jpg" />
+              <div class="portrait-text">
+                <div class="name grey-text text-darken-2">Siyazama Ndlovu</div>
+              </div>
+            </li>
+            <li class="portrait">
+              <img class="portrait-pic z-depth-1" src="../assets/portraits/4.jpeg" />
+              <div class="portrait-text">
+                <div class="name grey-text text-darken-2">Brandon Walker</div>
+              </div>
+            </li>
+            <li class="portrait">
+              <img class="portrait-pic z-depth-1" src="../assets/portraits/5.png" />
+              <div class="portrait-text">
+                <div class="name grey-text text-darken-2">Gail Sander</div>
+              </div>
+            </li>
+            <li class="portrait">
+              <img class="portrait-pic z-depth-1" src="../assets/portraits/6.jpg" />
+              <div class="portrait-text">
+                <div class="name grey-text text-darken-2">Gerald Shezi</div>
+              </div>
+            </li>
+            <li class="portrait">
+              <img class="portrait-pic z-depth-1" src="../assets/portraits/8.jpg" />
+              <div class="portrait-text">
+                <div class="name grey-text text-darken-2">Khulekani Khanyile</div>
+              </div>
+            </li>
+          </ul>
         </div>
-       
-      </div>
-           <div class="footer">
-        <p>A.I.M Airconditioning Industrial Maintenance | Created by Ben Sander</p>
       </div>
     </div>
+    <div class="footer">
+      <p>A.I.M Airconditioning Industrial Maintenance | Created by Ben Sander</p>
+    </div>
+  </div>
 </template>
 
 <script>
