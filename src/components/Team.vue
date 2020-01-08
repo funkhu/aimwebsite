@@ -22,33 +22,9 @@
                 </div>
               </li>
               <li class="portrait">
-                <img class="portrait-pic z-depth-1" src="../assets/portraits/2.jpg">
-                <div class="portrait-text">
-                  <div class="name grey-text text-darken-2">Thamsanqa Shezi</div>
-                </div>
-              </li>
-              <li class="portrait">
                 <img class="portrait-pic z-depth-1" src="../assets/portraits/3.jpg">
                 <div class="portrait-text">
                   <div class="name grey-text text-darken-2">Siyazama Ndlovu</div>
-                </div>
-              </li>
-              <li class="portrait">
-                <img class="portrait-pic z-depth-1" src="../assets/portraits/4.jpg">
-                <div class="portrait-text">
-                  <div class="name grey-text text-darken-2">Velani Tabete</div>
-                </div>
-              </li>
-              <li class="portrait">
-                <img class="portrait-pic z-depth-1" src="../assets/portraits/5.jpg">
-                <div class="portrait-text">
-                  <div class="name grey-text text-darken-2">Janine Whitely</div>
-                </div>
-              </li>
-              <li class="portrait">
-                <img class="portrait-pic z-depth-1" src="../assets/portraits/6.jpg">
-                <div class="portrait-text">
-                  <div class="name grey-text text-darken-2">Gerald Shezi</div>
                 </div>
               </li>
               <li class="portrait">
@@ -64,15 +40,9 @@
                 </div>
               </li>
               <li class="portrait">
-                <img class="portrait-pic z-depth-1" src="../assets/portraits/9.jpg">
+                <img class="portrait-pic z-depth-1" src="../assets/portraits/brandon.jpeg">
                 <div class="portrait-text">
-                  <div class="name grey-text text-darken-2">Michael Rodway</div>
-                </div>
-              </li>
-              <li class="portrait">
-                <img class="portrait-pic z-depth-1" src="../assets/portraits/10.jpg">
-                <div class="portrait-text">
-                  <div class="name grey-text text-darken-2">Denise Schubach</div>
+                  <div class="name grey-text text-darken-2">Brandon Walker</div>
                 </div>
               </li>
             </ul>
