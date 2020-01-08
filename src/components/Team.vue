@@ -48,12 +48,12 @@
             </ul>
           </div>
         </div>
-       
-      </div>
-           <div class="footer">
-        <p>A.I.M Airconditioning Industrial Maintenance | Created by Ben Sander</p>
       </div>
     </div>
+    <div class="footer">
+      <p>A.I.M Airconditioning Industrial Maintenance | Created by Ben Sander</p>
+    </div>
+  </div>
 </template>
 
 <script>
