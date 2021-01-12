@@ -1,8 +1,8 @@
 <template>
+  <div>
     <div id="team" class="z-depth-1">
-        <div class="col s12 center-align">
-        <img class="responsive-img" src="">
-        
+      <div class="col s12 center-align">
+          <img class="responsive-img" src="">
       </div>
       <div class="left-align team-heading">Team</div>
       <div style="flex: 1; padding-left: 97px;">
@@ -28,15 +28,15 @@
                 </div>
               </li>
               <li class="portrait">
-                <img class="portrait-pic z-depth-1" src="../assets/portraits/7.jpg">
+                <img class="portrait-pic z-depth-1" src="../assets/portraits/bhekani.jpg">
                 <div class="portrait-text">
                   <div class="name grey-text text-darken-2">Bhekani Nguse</div>
                 </div>
               </li>
               <li class="portrait">
-                <img class="portrait-pic z-depth-1" src="../assets/portraits/8.jpg">
+                <img class="portrait-pic z-depth-1" src="../assets/portraits/micheal.jpg">
                 <div class="portrait-text">
-                  <div class="name grey-text text-darken-2">Khulekani Khanyile</div>
+                  <div class="name grey-text text-darken-2">Micheal Payne</div>
                 </div>
               </li>
               <li class="portrait">
